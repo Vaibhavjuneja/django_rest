@@ -1,0 +1,9 @@
+# taken from black
+# added E231 as is conflicts with black formatting
+[flake8]
+exclude =
+    migrations
+    __pycache__
+    manage.py
+    settings.py
+
